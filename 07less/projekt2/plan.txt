@@ -1,0 +1,9 @@
+project/
+│
+├── pages/             # Папка для классов страниц
+│   └── calculator_page.py     # Класс для калькулятора
+│
+├── tests/             # Папка для тестов
+│   └── test_calculator.py     # Тесты для калькулятора
+│
+└── conftest.py        # Файл конфигурации pytest

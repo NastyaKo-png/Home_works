@@ -1,0 +1,17 @@
+project/
+│
+├── pages/                     # Классы страниц
+│   ├── login_page.py          # Логика страницы авторизации
+│   ├── inventory_page.py      # Логика главной страницы магазина
+│   ├── cart_page.py           # Логика страницы корзины
+│   ├── checkout_step_one_page.py  # Логика первой страницы оформления заказа
+│   └── checkout_overview_page.py  # Логика последней страницы подтверждения заказа
+│
+├── tests/                     # Тесты
+│   ├── conftest.py            # Конфигурация pytest
+│   └── test_purchase_total.py # Тестовый сценарий
+│
+├── .gitignore                 # Игнорирование файлов для Git
+├── requirements.txt           # Список зависимостей
+├── README.md                  # Описание проекта
+└── run_tests.sh               # Скрипт для запуска тестов
